@@ -1,0 +1,147 @@
+body {
+    background-image: url(images/fondo.gif);
+    margin: 0px 30px 0px 30px;
+}
+
+header h1 {
+    font-family: 'Secular One', sans-serif;
+    color: rgb(233, 176, 84);
+    text-shadow: 2px 2px 2px black;
+    font-size: 80px;
+    margin: 0px;
+}
+
+/* barra de navegacion */
+nav ul {
+    /* formato de fondo */
+    background-image: url(images/fondomenu.png);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Letras de barra de navegación */
+nav ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration-line: none;
+    padding: 30px;
+    margin: 0px 20px 0px 30px;
+    font-size: 20px;
+}
+
+/* Cambio de color en la barra de navegacion con el mouse */
+nav ul li a:hover {
+    color: rgb(233, 176, 84);
+}
+
+/* Imagen de bienvenida */
+header img {
+    float: left;
+    z-index: 1;
+}
+
+.tazadecafe {
+    width: 100%;
+    height: 400px;
+}
+
+/* letras de bienvenida */
+section header h2 {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: justify;
+    width: auto;
+}
+
+section p.disfruta {
+    position: absolute;
+    margin: 150px 0px 0px 80px;
+    z-index: 2;
+    text-align: justify;
+    color: rgb(233, 176, 84);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+
+/* container total de cafes */
+ul.columna {
+    background-color: white;
+    border: 25px solid white;
+    border-radius: 25px;
+    /* Alineacion seguida */
+    display: flex;
+    flex-wrap: wrap;
+    /* desaparecer punto de lista */
+    list-style: none;
+    /* Eliminar espaciamiento innecesario */
+    padding: 0px;
+}
+
+/* Containers de cafés */
+.cuadro {
+    width: 295px;
+    height: 400px;
+    background-color: rgb(233, 176, 84);
+    border: 6px solid white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+/* imagenes de cafe */
+section a img {
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+/* titulo container cafes */
+h2 a {
+    color: white;
+
+}
+
+/* Descripcion container cafes */
+p {
+    font-size: 20px;
+}
+
+/* Formulario */
+#formulario {
+    width: 295px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* Pie de pagina */
+footer {
+    background-image: url(images/fondomenu.png);
+    border-radius: 25px;
+    color: white;
+    padding: 10px 10px 5px 20px;
+    /* Alineacion seguida */
+    display: flex;
+    flex-wrap: wrap;
+    /* centrar */
+    justify-content: center;
+    /* espaciamiento entre items */
+    gap: 20px;
+}
+
+footer section {
+    width: 30%;
+    height: 10%;
+}
